@@ -65,5 +65,7 @@ The "Notify Me" functionality is designed for e-commerce, stock tracking, or any
 - **Scaling**: Deploy services with Kubernetes for horizontal scalability.
 - **Rate Limiting**: Implement rate limits to prevent notification spamming.
 
-## **Conclusion**
-This "Notify Me" service ensures users receive timely updates about important events, leveraging a scalable architecture with event-driven design and reliable message processing.
+## **Java Implementation**
+- Subscription Service
+- Event Listener (Kafka/RabbitMQ Consumer)
+- Notification Sender (Email, SMS, Push)
